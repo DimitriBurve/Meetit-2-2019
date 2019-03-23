@@ -1,0 +1,59 @@
+   <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_character_picture"
+            android:paddingRight="@dimen/nav_header_vertical_spacing"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"/>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical">
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical">
+            <TextView
+               android:text="FirstName "
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:paddingRight="@dimen/nav_header_vertical_spacing"
+                android:id="@+id/text_view_character_first_name"/>
+
+               <TextView
+                   android:id="@+id/text_view_character_familiy_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="FamilyName" />
+           </LinearLayout>
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical">
+           <TextView
+               android:text="Latitude "
+               android:layout_width="wrap_content"
+               android:paddingRight="@dimen/nav_header_vertical_spacing"
+               android:layout_height="wrap_content"
+               android:id="@+id/text_view_character_latitude"/>
+
+           <TextView
+               android:text="Longitude"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/text_view_character_longitude"/>
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
